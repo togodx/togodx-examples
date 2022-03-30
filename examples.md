@@ -62,7 +62,7 @@
 
 - [免疫グロブリンドメインを持つタンパク質をコードする遺伝子のGO(Biological process)一覧](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22393%22%7D%5D%7D%5D)
 
-### ◯Cellular component
+### Cellular component
 
 - [ミトコンドリアゲノムにコードされたタンパク質の細胞内局在](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22id%22%3A%7B%22categoryId%22%3A%22GO_0110165%22%2C%22ancestors%22%3A%5B%5D%7D%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2225%22%7D%5D%7D%5D)
 
