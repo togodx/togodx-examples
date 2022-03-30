@@ -1,4 +1,4 @@
-#　TogoDX Cookbook
+#TogoDX Cookbook
 ## Attribute別
 
 ### Gene
@@ -10,7 +10,7 @@
         - MIR140 ENSG00000208017 Spondyloepiphyseal dysplasia, Nishimura type
         - MIR204 ENSG00000207935 Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome
 
-####　Chromosome
+#### Chromosome
 
 - [Y染色体の遺伝子が特異的に発現している組織を見る](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2224%22%7D%5D%7D%5D) (Ensembl gene 521件)
     - Testis特異的発現が多い
@@ -27,7 +27,7 @@
     - ターゲットをPDBにしたときに出てくるラベルにWaterとかが出てくるのはバグ
     - PDBについてmetastanza API error
 
-####　# of paralogs
+#### # of paralogs
 
 - [singletonをターゲットとしてmetabolic diseasesに効く薬](https://togodx.dbcls.jp/human/?togoKey=chebi&keys=%5B%5D&values=%5B%7B%22attributeId%22%3A%22gene_number_of_paralogs_homologene%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22paralog_count_01%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%221%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22D008659%22%2C%22ancestors%22%3A%5B%22D009750%22%5D%7D%5D%7D%5D)
 
