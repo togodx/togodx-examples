@@ -78,25 +78,16 @@
 ### Ligands
 
 - [DNA結合型転写因子として組織特異的に高発現し、Zincと結合･反応して機能するタンパク質の一覧](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22GO_0003700%22%2C%22ancestors%22%3A%5B%22GO_0140110%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_ligands_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22862%22%7D%5D%7D%5D)　(955個)
-- 
-    
-    ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image14.jpg](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image14.jpg)
     
 
 ### Molecular mass
 
 - [分子量が100kDa以上でDNA結合型転写因子として組織特異的に高発現し、Zincと結合･反応して機能するタンパク質の一覧](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22GO_0003700%22%2C%22ancestors%22%3A%5B%22GO_0140110%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_molecular_mass_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2211%22%7D%2C%7B%22categoryId%22%3A%2212%22%7D%2C%7B%22categoryId%22%3A%2213%22%7D%2C%7B%22categoryId%22%3A%2214%22%7D%2C%7B%22categoryId%22%3A%2215%22%7D%2C%7B%22categoryId%22%3A%2216%22%7D%2C%7B%22categoryId%22%3A%2217%22%7D%2C%7B%22categoryId%22%3A%2218%22%7D%2C%7B%22categoryId%22%3A%2219%22%7D%2C%7B%22categoryId%22%3A%2220%22%7D%2C%7B%22categoryId%22%3A%2221%22%7D%2C%7B%22categoryId%22%3A%2222%22%7D%2C%7B%22categoryId%22%3A%2223%22%7D%2C%7B%22categoryId%22%3A%2224%22%7D%2C%7B%22categoryId%22%3A%2225%22%7D%2C%7B%22categoryId%22%3A%2226%22%7D%2C%7B%22categoryId%22%3A%2227%22%7D%2C%7B%22categoryId%22%3A%2228%22%7D%2C%7B%22categoryId%22%3A%2229%22%7D%2C%7B%22categoryId%22%3A%2230%22%7D%2C%7B%22categoryId%22%3A%2231%22%7D%2C%7B%22categoryId%22%3A%2232%22%7D%2C%7B%22categoryId%22%3A%2233%22%7D%2C%7B%22categoryId%22%3A%2234%22%7D%2C%7B%22categoryId%22%3A%2235%22%7D%2C%7B%22categoryId%22%3A%2236%22%7D%2C%7B%22categoryId%22%3A%2237%22%7D%2C%7B%22categoryId%22%3A%2238%22%7D%2C%7B%22categoryId%22%3A%2239%22%7D%2C%7B%22categoryId%22%3A%2240%22%7D%2C%7B%22categoryId%22%3A%2241%22%7D%2C%7B%22categoryId%22%3A%2242%22%7D%2C%7B%22categoryId%22%3A%2243%22%7D%2C%7B%22categoryId%22%3A%2244%22%7D%2C%7B%22categoryId%22%3A%2245%22%7D%2C%7B%22categoryId%22%3A%2246%22%7D%2C%7B%22categoryId%22%3A%2247%22%7D%2C%7B%22categoryId%22%3A%2248%22%7D%2C%7B%22categoryId%22%3A%2249%22%7D%2C%7B%22categoryId%22%3A%2250%22%7D%2C%7B%22categoryId%22%3A%2251%22%7D%2C%7B%22categoryId%22%3A%2252%22%7D%2C%7B%22categoryId%22%3A%2253%22%7D%2C%7B%22categoryId%22%3A%2254%22%7D%2C%7B%22categoryId%22%3A%2255%22%7D%2C%7B%22categoryId%22%3A%2256%22%7D%2C%7B%22categoryId%22%3A%2257%22%7D%2C%7B%22categoryId%22%3A%2258%22%7D%2C%7B%22categoryId%22%3A%2259%22%7D%2C%7B%22categoryId%22%3A%2260%22%7D%2C%7B%22categoryId%22%3A%2262%22%7D%2C%7B%22categoryId%22%3A%2263%22%7D%2C%7B%22categoryId%22%3A%2264%22%7D%2C%7B%22categoryId%22%3A%2265%22%7D%2C%7B%22categoryId%22%3A%2270%22%7D%2C%7B%22categoryId%22%3A%2273%22%7D%2C%7B%22categoryId%22%3A%2274%22%7D%2C%7B%22categoryId%22%3A%2278%22%7D%2C%7B%22categoryId%22%3A%2279%22%7D%2C%7B%22categoryId%22%3A%2280%22%7D%2C%7B%22categoryId%22%3A%2281%22%7D%2C%7B%22categoryId%22%3A%2284%22%7D%2C%7B%22categoryId%22%3A%2285%22%7D%2C%7B%22categoryId%22%3A%2286%22%7D%2C%7B%22categoryId%22%3A%2287%22%7D%2C%7B%22categoryId%22%3A%2289%22%7D%2C%7B%22categoryId%22%3A%2297%22%7D%2C%7B%22categoryId%22%3A%2298%22%7D%2C%7B%22categoryId%22%3A%22101%22%7D%2C%7B%22categoryId%22%3A%22102%22%7D%2C%7B%22categoryId%22%3A%22152%22%7D%2C%7B%22categoryId%22%3A%22302%22%7D%2C%7B%22categoryId%22%3A%22382%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_ligands_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22862%22%7D%5D%7D%5D)　(91個)
-- 
-    
-    ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image25.jpg](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image25.jpg)
-    
+
 
 ### PTMs
 
 - [Viral processに関わり、Glycoprotein(糖タンパク質)の翻訳後修飾を受けるタンパク質のうち、組織別に結合する糖鎖の種類が明らかになっているかを調べる(かつ、それらの遺伝子の組織における発現状況を調べる)。](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22glycan_tissue_glycosmos%22%7D%2C%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_ptms_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22325%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22GO_0016032%22%7D%5D%7D%5D)　(135個)
-- 
-    
-    ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image13.jpg](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image13.jpg)
     
     - このAttributeの問題ではないが、GlyTouCanのデータは、EGFR、CD4、MMP1、ITB1、PTPRCのみが表示されており、いずれもN/Aの表記になっている
         - N/Aの意味はどの組織で結合するか明確にはなっていない、という解釈で合っている?
@@ -105,9 +96,6 @@
 ### # of transmembrane domains
 
 - [Gタンパク質共役型ペプチドレセプタータンパク質の膜貫通型ドメインの数とそれらの立体構造データの有無](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22GO_0008528%22%2C%22ancestors%22%3A%5B%22GO_0060089%22%2C%22GO_0038023%22%2C%22GO_0004888%22%2C%22GO_0004930%22%5D%7D%5D%7D%5D)　(212個)
-- 
-    
-    ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image24.jpg](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image24.jpg)
     
 
 ### # of phosphorylation sites
@@ -203,8 +191,6 @@
     - target: CHEBI compound : 1240件
     - 下図最初のTarget（ラベルがNull）を選ぶとMetaStanza API error SyntaxError: Unexpected token T in JSON at position 0 となる
 
-![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image2.png](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image2.png)
-
 - [疾患に関与する環境汚染物質](https://togodx.dbcls.jp/human/?togoKey=chebi&keys=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22compound_chemical_role_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2278298%22%7D%5D%7D%5D)
     - target:ChEBI compound: 353件
     - Chemical CompoundとDiseases in MeSHはChEMBL Drug Indicationを通してつながっているはずなので、疾患に薬効を持つ環境汚染物質という意味になると思われるが、それがわかりにくい
@@ -217,8 +203,6 @@
         - 化学物質とそれが引き起こす疾患の関係について、**[Comparative Toxicogenomics Database](http://ctdbase.org/)**に[ダウンロード可能なデータ](http://ctdbase.org/downloads/)がある（*subject to [certain terms](http://ctdbase.org/about/legal.jsp)*）のを見つけた（既知だったらすみません）。物質がMeSHのUIDで参照されている。例：エタノールならD000431
             - PubChem/ChEMBL/ChEBIから[MeSH Tree](https://meshb.nlm.nih.gov/treeView)のChemicals and Drugs [D] へのマッピングが必要になる。現状、Diseases [C]へマップしている。（TogoIDも：PubChem CID:702を入れてもMeSH:D000431は出てきません。これはこれで問題かも）
 
-![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image21.png](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image21.png)
-
 ### Application type
 
 - [薬効のある化粧品（香料含む）](https://togodx.dbcls.jp/human/?togoKey=pubchem_compound&keys=%5B%5D&values=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2248318%22%7D%2C%7B%22categoryId%22%3A%2264857%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22compound_drug_indication_mesh_chembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22D009369%22%7D%2C%7B%22categoryId%22%3A%22D005261%22%7D%2C%7B%22categoryId%22%3A%22D002318%22%7D%2C%7B%22categoryId%22%3A%22D017437%22%7D%2C%7B%22categoryId%22%3A%22D013568%22%7D%2C%7B%22categoryId%22%3A%22D007239%22%7D%2C%7B%22categoryId%22%3A%22D006425%22%7D%2C%7B%22categoryId%22%3A%22D007154%22%7D%2C%7B%22categoryId%22%3A%22D009750%22%7D%2C%7B%22categoryId%22%3A%22D009358%22%7D%2C%7B%22categoryId%22%3A%22D009422%22%7D%2C%7B%22categoryId%22%3A%22D004066%22%7D%2C%7B%22categoryId%22%3A%22D004700%22%7D%2C%7B%22categoryId%22%3A%22D012140%22%7D%2C%7B%22categoryId%22%3A%22D064419%22%7D%2C%7B%22categoryId%22%3A%22D005128%22%7D%2C%7B%22categoryId%22%3A%22D014947%22%7D%2C%7B%22categoryId%22%3A%22D009140%22%7D%2C%7B%22categoryId%22%3A%22D009057%22%7D%2C%7B%22categoryId%22%3A%22D010038%22%7D%2C%7B%22categoryId%22%3A%22D052801%22%7D%2C%7B%22categoryId%22%3A%22D009784%22%7D%2C%7B%22categoryId%22%3A%22D000820%22%7D%5D%7D%5D)
@@ -226,8 +210,6 @@
     - もともとfragranceやcosmeticのAttributeを持つChEBI compoundが少ないので結果も少ない
 - ▲とした懸念点(建石)
     - 結果が少ないのに例としていいのか
-
-![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image5.png](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image5.png)
 
 - [どう働くかよくわかっていないけれど薬効が認められている物質](https://togodx.dbcls.jp/human/?togoKey=mesh&keys=%5B%5D&values=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2252217%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22unclassified%22%7D%5D%7D%5D)
     - 504 Gateway Timeout
@@ -250,10 +232,6 @@
     - Target: Mondo 958件 （MeSH 1262、NANDO 0、HPO 122）
     - Action Type →INHIBITORでフィルターしたはずなのに、Map Attribute先のDrug Development Phaseではそれより多くの物質が表示されている
         - inhibitor-mondoのセット。ここで絞られたmondoに紐づいたchemicalになっているので。データとしては間違っていないのでは。
-            - 
-                
-                ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image15.png](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209547b/image15.png)
-                
     - ▲とした懸念点(建石)
         - FilterされたものがMap Attribute先のIDへMapされるわけではないのでしょうか。だとするとFilterの結果残るものと残らないものがわかりやすい表示になっているとありがたいです。
 
