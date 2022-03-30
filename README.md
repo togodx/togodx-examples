@@ -1,8 +1,10 @@
 # TogoDX examples
 
+### Original links
+
 https://github.com/togodx/togodx-examples/blob/main/examples.md
 
-### Converted links
+### Links converted by script
 
 https://github.com/togodx/togodx-examples/blob/main/examples_kohan.md
 
