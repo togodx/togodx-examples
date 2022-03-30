@@ -1,6 +1,3 @@
-#TogoDX Cookbook
-## Attribute別
-
 ### Gene
 #### Gene biotype
 
