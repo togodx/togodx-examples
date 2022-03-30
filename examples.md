@@ -16,8 +16,6 @@
     - ところで, Cerebellum(小脳)特異的に発現しているNLGN4Yという遺伝子があるが ([link](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22v02_40%22%7D%5D%7D%5D)), これは女性では発現していないということ? -> X染色体に対応するNLGN4Xというのがあるらしい. 新しい性タイピング遺伝子として提案された. ([link](https://pubmed.ncbi.nlm.nih.gov/31852540/))
     - targtをNCBI geneにすると285件になるのはなぜ?
 
-> 
-> 
 - [Y染色体の遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2224%22%7D%5D%7D%5D)
     - 1件ヒット: SRY遺伝子 (sex determining region Y)
 - [神経系疾患に関連する遺伝子が、どの染色体にあるか](https://togodx.dbcls.jp/human/?togoKey=mesh&keys=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22D009422%22%7D%5D%7D%5D)
@@ -116,15 +114,10 @@
 
 - [タンパク質ポリンについて、リン酸化部位の数、膜貫通型ドメインの数、および局在を見る](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_number_of_phosphorylation_sites_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22id%22%3A%7B%22categoryId%22%3A%22GO_0016020%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%5D%7D%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22626%22%2C%22ancestors%22%3A%5B%22812%22%5D%7D%5D%7D%5D) (UniProt 16件)
 
-> 
-> 
-
 ### # of glycosylation sites
 
 - [免疫グロブリンドメインを持つタンパク質について、糖鎖修飾部位の数、リン酸化部位の数、膜貫通型ドメインの数を見る](https://togodx.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_number_of_glycosylation_sites_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_number_of_phosphorylation_sites_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22393%22%7D%5D%7D%5D) (UniProt 886件)
 
-> 
-> 
 
 ### Disease-related proteins
 
@@ -270,9 +263,6 @@
     - targetをchebi, pubchemにするとnullがたくさんでる
     - targetがChEMBLでもnullが出る、むしろChEBIだとnullはない (2/2。上の行はTypo？）
     - TargetがChEMBLのとき217件、ChEBIのとき318件、PubChemのとき298件
-
-> 
-> 
 
 ### Drug indication
 
