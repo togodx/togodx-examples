@@ -1,12 +1,5 @@
 ## 既存バーの動作と有用性検証の試行
 
-- [TogoDX 俯瞰ビューに出すデータ](https://docs.google.com/spreadsheets/d/1BFBOLQKpRLpKGNIn_h09jlg1KU83MxmqUBpGLbMSqt8/edit#gid=244587444)のAttribute-Group3メモシートを埋めていく
-- やり方
-    - 担当(仮)のバーに対して、target dataset をすべて試す
-    - 担当のバーのフィルターは約500個くらいがよさそう?
-    - フィルターを一つ選んだら、任意のバーについてMapAttributeしてみる
-    - 実行した検索クエリのURLとその意味と結果の妥当性を記載する
-    - ルートの確認https://github.com/togodx/togodx-config-human/blob/develop/config/routing_org.json
 - 記載例
     - [ミトコンドリアゲノム由来のタンパク質をターゲットとする薬とその適用疾患](https://togodx.dbcls.jp/human/?togoKey=chebi&keys=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%221%22%7D%5D%7D%5D)(信定)
         - target dataset:
