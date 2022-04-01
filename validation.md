@@ -13,7 +13,7 @@
         - map:
             - diseases in mesh
         - comments
-            - 
+            - comment
 - 小野
     - [免疫グロブリンドメインを持つタンパク質をコードする遺伝子のGO(Biological process)一覧](https://togodx.dbcls.jp/human/?togoKey=ensembl_gene&keys=%5B%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22393%22%7D%5D%7D%5D)
         - target dataset:
@@ -124,7 +124,6 @@
         - diseases in mesh > nutritional and metabolic diseases
     - map
         - chembl ATC classification
-    - comment
 - [どう働くかよくわかっていないけれど薬効が認められている物質、が取れないかなと思いました](https://togodx.dbcls.jp/human/?togoKey=mesh&keys=%5B%5D&values=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2252217%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22unclassified%22%7D%5D%7D%5D)
     - target: MeSH
     - filter:
@@ -258,8 +257,6 @@
             - Structure -> Analysis methods
         - map
             - Gene -> Chromosome
-        - comment
-            - 
     - 結果が返ってこない例
         - [リンク](https://togodx.dbcls.jp/human/?togoKey=chebi&keys=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%221%22%7D%5D%7D%5D)
             - target
