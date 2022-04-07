@@ -1,3 +1,4 @@
+## Issues
 
 ### General
 
@@ -9,12 +10,6 @@
     - 結果が全部出ないうちにReturnで戻り, TargetだけNCBI geneからGlyTouCanに変えて再びView resultsした結果が下図. 最初の1行だけGlyToucanの結果で, あとはNCBI Gene.
 
 - View resultの画面で, 結果が0件 (No Data Found) だが, 矢印がずっとくるくる回っている. [リンク](https://togodx.dbcls.jp/human/?dataset=nando&annotations=%5B%7B%22attribute%22%3A%22compound_action_type_chembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22compound_drug_indication_mesh_chembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D007239%22%7D%5D%7D%2C%7B%22attribute%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%5D)
-
-- View resultsの画面のヒストグラムは, 決まった順で並んだ方が見やすいのでは (chr1, chr2, … 等) [リンク](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009422%22%7D%5D%7D%5D)
-
-- View resultsの画面でしばらく時間がかかり, Bad Gateway (502) と出ることがある (GOにマップしたときなど) [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22protein_biological_process_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22protein_domains_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22393%22%7D%5D%7D%5D)
-
-- View resultsの画面でしばらく時間がかかり, timeout of 120000ms exceeded と出ることがある. [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22protein_isolation_source_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
 
 - View resultsの画面で, ヒストグラムの数字とテーブルが合わないことがある. 例: ヒストグラムだと Mendelian diseaseが2件だが, テーブルの中を見ると Mendelian diseaseが3件. [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)
 
@@ -63,3 +58,11 @@
 - 結果を解釈するために、変換routeを可視化したい (千葉)
     - 下図: ノードの大きさとエッジの太さは、それぞれID数とIDペア数を反映している.
         - [https://hchiba1.github.io/togodx/path.html](https://hchiba1.github.io/togodx/path.html)
+
+## 解決済
+
+- View resultsの画面のヒストグラムは, 決まった順で並んだ方が見やすいのでは (chr1, chr2, … 等) [リンク](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009422%22%7D%5D%7D%5D)
+
+- View resultsの画面でしばらく時間がかかり, Bad Gateway (502) と出ることがある (GOにマップしたときなど) [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22protein_biological_process_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22protein_domains_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22393%22%7D%5D%7D%5D)
+
+- View resultsの画面でしばらく時間がかかり, timeout of 120000ms exceeded と出ることがある. [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22protein_isolation_source_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
