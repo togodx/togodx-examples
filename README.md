@@ -1,7 +1,5 @@
 # TogoDX examples
 
-## Examples
-
 ### Converted markdown files (new links)
 
 https://github.com/togodx/togodx-examples/blob/main/examples.md
