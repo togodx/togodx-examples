@@ -1,5 +1,3 @@
-## Issues
-
 ### General
 
 - ヒストグラムのラベルが下のテーブルに突き抜ける (テーブルにマウスオーバーしたとき). [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2215%22%7D%5D%7D%5D)
