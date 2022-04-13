@@ -6,6 +6,7 @@ import re
 parser = argparse.ArgumentParser(description='Convert example.md')
 parser.add_argument('markdown', help='Markdown file')
 parser.add_argument('--g3', action='store_true', help='togodx-attribute-g3.dbcls.jp')
+parser.add_argument('--dev', action='store_true', help='ep.dbcls.jp/togodx-server-pg-dev')
 parser.add_argument('--kohan', action='store_true', help='ep.dbcls.jp/togodx-server-kohan-pg')
 parser.add_argument('--dxs', action='store_true', help='sparql-support.dbcs.jp/dxs')
 parser.add_argument('--dxsk', action='store_true', help='sparql-support.dbcs.jp/dxsk')
@@ -21,6 +22,8 @@ for line in fp:
         else:
             if args.kohan:
                 line = re.sub('https://togodx.dbcls.jp/human', 'http://ep.dbcls.jp/togodx-server-kohan-pg/build', line)
+            elif args.dev:
+                line = re.sub('https://togodx.dbcls.jp/human', 'http://ep.dbcls.jp/togodx-server-pg-dev/build', line)
             elif args.separate:
                 line = re.sub('togodx.dbcls.jp/human', 'sparql-support.dbcls.jp/dxs_separate_table/build', line)
             elif args.dxs:
