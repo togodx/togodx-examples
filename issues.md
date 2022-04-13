@@ -31,14 +31,6 @@
 - NCBI GeneをTargetにしても結果表のラベルがnullになることがある。メタスタンザで詳細情報を表示するとMetaStanza API errorとなっている
 - 化合物データベース(Chebi, ChEMBL, Pubchem)をtargetに選んだ場合、結果表でのラベルが”null”になるのだが、メタスタンザで詳細情報を表示するとラベルがある
 
-### ラベルの変更等
-
-- Tissue -> Glycosylation in Tissues?
-- Subsumption
-    - faq -> help
-- Subsumption hierarchy (GlyCosmos) ?
-- MeSHについて、Select TargetのメニューでもDiseases in MeSHとしたほうがよいのではないか。Chemical CompoundsやProteinはMeSH TreeのD:Chemicals and Drugsの下にそのものに対するMeSH IDを持っているものがあり、そのIDに変換されると誤解されそう。TogoIDも同じ？
-
 ### その他のコメント
 
 - 使用頻度の低いバーは、アーカイブのようにして見えなくするとか、できないか.
