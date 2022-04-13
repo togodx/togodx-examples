@@ -18,11 +18,6 @@
 - MeSHの階層をクリックしていっても, Alzheimer diseaseが出てこない
     - 末端のリーフは、階層構造には出てこない
     - （Alzheimer diseaseは該当しないが）Schizophreniaなど、[MeSH Tree](https://meshb.nlm.nih.gov/treeView)上でDiseases [C] の下にはなくて[Mental Disorders [F03]](https://meshb.nlm.nih.gov/record/ui?ui=D001523) の下にのみある疾患もあり、現行のバーでは出てこない
-- alpha-helicesとbeta-sheetsの数は合っているのか? もし、複合体の全体を数えていて意味がないようなら、PDB以外のソースから作り直した方がよい?
-    - SCOPをRDF化する？
-- StructureのAnalysis methodsは使い道があるだろうか?
-    - X-rayを細分化してみる?
-- 新カテゴリの提案: Expression, Function (GO annotation等), StructureはProteinに吸収しても?
 
 ### null問題
 
