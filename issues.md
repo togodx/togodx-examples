@@ -28,7 +28,6 @@
 
 ### その他のコメント
 
-- 使用頻度の低いバーは、アーカイブのようにして見えなくするとか、できないか.
 - View resultsの画面で, ヒストグラムが横方向に長いことがある. 例: # of Interacting proteins のヒストグラムが横に伸びていって, ChEMBL Assay Existenceが見えなくなる. [リンク](https://togodx.dbcls.jp/human/?dataset=chembl_compound&annotations=%5B%7B%22attribute%22%3A%22interaction_number_of_interacting_proteins_uniprot%22%7D%2C%7B%22attribute%22%3A%22interaction_chembl_assay_existence_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D007239%22%7D%5D%7D%5D)
     - (Barの画面でChEMBL Assay Existenceを先に指定すると順番が変わってChEMBL Assay Existenceが見えるようになる)
 - Saved Conditionに表示された数と、ヒストグラムに表示された数がずれるのはどういうときで、なぜそうなるのか[例](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22variant_clinical_significance_togovar%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22risk_factor%22%7D%5D%7D%5D)
