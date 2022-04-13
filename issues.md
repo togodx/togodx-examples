@@ -4,8 +4,8 @@
 
 - View resultsの画面で, ブラウザウィンドウの横幅を狭めると、部分的にトップの画面が見える. [リンク](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
 
-- View resultsの画面で全部のデータを取得される前に, Returnでトップに戻り別の検索をすると, 異なるIDが混ざって表示される (Pauseをかけても. 結果が全部取得されてからだと, 正しく表示される). [リンク](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%7B%22attribute%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22compound_chemical_role_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2278298%22%7D%5D%7D%5D)
-    - 結果が全部出ないうちにReturnで戻り, TargetだけNCBI geneからGlyTouCanに変えて再びView resultsした結果が下図. 最初の1行だけGlyToucanの結果で, あとはNCBI Gene.
+- View resultsの画面で全部のデータを取得される前に, Returnでトップに戻り別の検索をすると, 異なるIDが混ざって表示される. [リンク](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%7B%22attribute%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22compound_chemical_role_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2278298%22%7D%5D%7D%5D)
+  - (結果が全部出ないうちにReturnで戻り, TargetだけNCBI geneからGlyTouCanに変えて再びView resultsすると, 上の方の行だけGlyToucanで, あとはNCBI Geneが表示されていたりする.)
 
 - View resultの画面で, 結果が0件 (No Data Found) だが, 矢印がずっとくるくる回っている. [リンク](https://togodx.dbcls.jp/human/?dataset=nando&annotations=%5B%7B%22attribute%22%3A%22compound_action_type_chembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22compound_drug_indication_mesh_chembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D007239%22%7D%5D%7D%2C%7B%22attribute%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%5D)
 
