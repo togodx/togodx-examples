@@ -38,17 +38,6 @@
     - (Barの画面でChEMBL Assay Existenceを先に指定すると順番が変わってChEMBL Assay Existenceが見えるようになる)
 - Saved Conditionに表示された数と、ヒストグラムに表示された数がずれるのはどういうときで、なぜそうなるのか[例](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22variant_clinical_significance_togovar%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22risk_factor%22%7D%5D%7D%5D)
 
-    ![TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209256c/image5.png](TogoDX%E3%82%A2%E3%83%88%E3%83%AA%E3%83%92%209256c/image5.png)
-
-- 代表的な遺伝子セットをためておいて、それでmapのテストをしたらよいのではないか (千葉)
-    - 例: MTにコードされているタンパク質 (NCBI gene13件): 4508,4509,4512,4513,4514,4519,4535,4536,4537,4538,4539,4540,4541
-- Structure data existence を有/無よりももう少し詳細にすることはできないだろうか
-- 遺伝子に関連する論文が, 簡単に取れるというのもありかもしれない
-    - Variant→論文なら、TogoVarで使っているPubTatorCentral RDFが使えるのではないか（ただし、自動抽出なのでエラーがありうる）。Gene→論文もおおもとのPubTatorCentralにはあるのでTogoVarで落としていなければ使えるはず。
-- 結果を解釈するために、変換routeを可視化したい (千葉)
-    - 下図: ノードの大きさとエッジの太さは、それぞれID数とIDペア数を反映している.
-        - [https://hchiba1.github.io/togodx/path.html](https://hchiba1.github.io/togodx/path.html)
-
 ## 解決済
 
 - View resultsの画面のヒストグラムは, 決まった順で並んだ方が見やすいのでは (chr1, chr2, … 等) [リンク](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009422%22%7D%5D%7D%5D)
