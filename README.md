@@ -1,6 +1,6 @@
 # TogoDX examples
 
-### Converted markdown files (new)
+### Converted markdown files
 
 https://github.com/togodx/togodx-examples/blob/main/examples.md
 
