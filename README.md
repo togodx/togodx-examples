@@ -1,10 +1,10 @@
 # TogoDX examples
 
-### Converted markdown files
+### Converted markdown file
 
 https://github.com/togodx/togodx-examples/blob/main/examples.md
 
-### Original markdown files (obsolete)
+### Original markdown file (obsolete)
 
 https://github.com/togodx/togodx-examples/blob/main/examples_original.md
 
