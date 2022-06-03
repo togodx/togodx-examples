@@ -125,7 +125,6 @@
 ## Structure
 
 ### Structure data existence
-
 - [構造を持つタンパク質と遺伝子の染色体ごとの分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=pdb&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22structure_data_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%5D)
 - [疾患に関連する構造タンパク質と遺伝子の染色体ごとの分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=mondo&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22structure_data_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%5D)
 - Attributeの課題有り
@@ -142,7 +141,6 @@
 
 ### Rate of beta strand
 - [Cell projection membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=uniprot&annotations=%5B%7B%22attribute%22%3A%22structure_beta_strand_regions_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0031253%22%2C%22path%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
-
 - [Synaptic membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=uniprot&annotations=%5B%7B%22attribute%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22path%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
     - Beta strand では、Synaptic membraneとCell projection membrane を比べて大きな差はないことがわかる。
 
