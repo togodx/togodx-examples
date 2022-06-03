@@ -352,12 +352,7 @@
 - [ミトコンドリアゲノムの遺伝子は、どのような異常形質に関連しているか](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22disease_phenotypic_abnormality_hpo%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
     - 「遺伝子ー症状」の関連データはどこから取得しているか？
         - 例えば「MT-ATP6」遺伝子は，「Leber hereditary optic neuropathy」及び「NARP syndrome」の疾患原因遺伝子で，それら疾患に関連する症状は[10以上存在する](https://pubcasefinder.dbcls.jp/result?target=omim&phenotype=HP:0000347_ja,HP:0003022_ja,HP:0009381_ja,HP:0000204_ja,HP:0000625_ja&filter=GENEID:4508&size=10&display_format=full&lang=ja)．
-            - PubCaseFinderのRDFを使えば可能
-                - PubCaseFinderにIDがない問題で保留されていたが，IDを付けたので今のバージョンならできるかも？（シンさんに確認）
         - しかし，TogoDX上で「MT-ATP6」遺伝子に関連する症状はHP:0001112の「Leber optic atrophy」のみ
-    - モーダルのHPO内容表示
-        - 大見出しのIDのprefix: HPO -> HP
-            - メタスタンザ修正済 (池田さん)
 
 ## Variant
 
