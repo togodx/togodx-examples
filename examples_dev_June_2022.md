@@ -364,7 +364,7 @@
 ### GWAS
 
 - [GWASでアルツハイマー病に関連付けられた遺伝子は、どの染色体にあるか](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%7B%22attribute%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22variant_gwas_togovar%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22EFO_0009268%22%2C%22path%22%3A%5B%22IAO_0000030%22%2C%22EFO_0000352%22%2C%22EFO_0000493%22%5D%7D%5D%7D%5D)
-  - 19番染色体が多い
+  - 19番染色体に多い
 
 ### Clinical significance
 
