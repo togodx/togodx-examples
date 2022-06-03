@@ -134,20 +134,19 @@
         - 現在の構造データ有りの7299エントリをさらに160くらいに分類できそう
         - https://togodx.integbio.jp/sparqlist_dev/structure_data_existence_uniprot_num
 
-### # of alpha-helices
-
+### Rate of helical regions
+TODO:　ソースがUniProtになったのでクエリを差し替える
 - [GWASでアルツハイマー病に関連付けられた遺伝子について, PDBのαヘリックス数の分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=uniprot&annotations=%5B%7B%22attribute%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22variant_gwas_togovar%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22EFO_0009268%22%2C%22path%22%3A%5B%22IAO_0000030%22%2C%22EFO_0000352%22%2C%22EFO_0000493%22%5D%7D%5D%7D%5D)
     - 12と32にピークがある → 解釈は可能か?
 - [GWASでアルツハイマー病に関連付けられた遺伝子について, PDBのαヘリックス数の分布 (UniProtバージョン)](https://sparql-support.dbcls.jp/dxs/build/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_number_of_helix_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22812%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22variant_gwas_togovar%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22EFO_0009268%22%2C%22ancestors%22%3A%5B%22IAO_0000030%22%2C%22EFO_0000352%22%2C%22EFO_0000493%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_reviewed_flag_uniprot%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%22reviewed%22%7D%5D%7D%5D)
     - ヘリックスの数が63と一番多いのは、ACEという遺伝子
     - ログスケールにしないと分布がわかりにくい?
-- ソースをPDBからUniProtに変える(井出さん)
 
-### # of beta-sheets
-
+### Rate of beta strand
+TODO:　ソースがUniProtになったのでクエリを差し替える
 - [GWASでアルツハイマー病に関連付けられた遺伝子について, PDBのβシート数の分布](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=uniprot&annotations=%5B%7B%22attribute%22%3A%22structure_beta_strand_regions_uniprot%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22variant_gwas_togovar%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22EFO_0009268%22%2C%22path%22%3A%5B%22IAO_0000030%22%2C%22EFO_0000352%22%2C%22EFO_0000493%22%5D%7D%5D%7D%5D)
     - 0,3,4にピーク
-- ソースをPDBからUniProtに変える(井出さん)
+
 
 ### # of peptides in a PDB entry
 
