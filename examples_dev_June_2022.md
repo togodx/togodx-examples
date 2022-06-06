@@ -316,7 +316,6 @@
 
 - [miRNA遺伝子に関連する病気](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attribute%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attribute%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%7D%5D%7D%5D)
     - 3つの遺伝子について、ENSGのリンクをクリックしていくと、確かに病気に関連する情報が見つかる.
-    - Mondo にマップしたとき, ヒットの数が合わない? (ヒストグラムだと, Mendelian diseaseが2件だが, テーブルの中を見ると, Mendelian diseaseが3件?)
     - Select target datasetにNANDOを設定すると[結果](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=nando&annotations=%5B%7B%22attribute%22%3A%22disease_diseases_nando%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)を取得できない？
         - NANDOとMONDOのリンクがないので，NANDOでは紐付けられてない
             - MONDO_0013114
@@ -324,6 +323,7 @@
             - MONDO_0014747
             - MONDO_0032835
         - 上記のMONDOとNANDOに紐付きがないのを確認
+    - [Diseases in Mondo に Map attribute した場合](http://ep.dbcls.jp/togodx-server-pg-dev/build/?dataset=ensembl_gene&annotations=%5B%7B%22attribute%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attribute%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)
 
 ### Diseases in MeSH
 
