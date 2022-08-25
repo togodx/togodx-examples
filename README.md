@@ -7,5 +7,8 @@
 ```
 
 ### Latest (June 2022)
+* Use "Rate of helical regions"
+* Use "Rate of beta strand"
+* Removed old comments
 
 https://github.com/togodx/togodx-examples/blob/main/examples_June_2022.md
