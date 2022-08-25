@@ -11,6 +11,7 @@ parser.add_argument('--kohan', action='store_true', help='ep.dbcls.jp/togodx-ser
 parser.add_argument('--dxs', action='store_true', help='sparql-support.dbcs.jp/dxs')
 parser.add_argument('--dxsk', action='store_true', help='sparql-support.dbcs.jp/dxsk')
 parser.add_argument('--separate', action='store_true', help='sparql-support.dbcs.jp/dxs_separate_table')
+parser.add_argument('-v', '--verbose', action='store_true', help='verbose')
 args = parser.parse_args()
 
 fp = open(args.markdown, 'r')
@@ -37,4 +38,6 @@ for line in fp:
             line = re.sub('%2C%22ids%22%3A', '%2C%22nodes%22%3A', line)
             line = re.sub('%7B%22categoryId%22', '%7B%22node%22', line)
             line = re.sub('%22ancestors%22', '%22path%22', line)
+        if args.verbose:
+            print(line, file=sys.stderr)
     print(line)
