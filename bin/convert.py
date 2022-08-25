@@ -33,7 +33,7 @@ for line in fp:
             line = re.sub('\?togoKey=', '?dataset=', line)
             line = re.sub('&keys=', '&annotations=', line)
             line = re.sub('&values=', '&filters=', line)
-            line = re.sub('%7B%22attributeId%22%3A', '%7B%22attribute%22%3A', line)
+            # line = re.sub('%7B%22attributeId%22%3A', '%7B%22attribute%22%3A', line)
             line = re.sub('%2C%22ids%22%3A', '%2C%22nodes%22%3A', line)
             line = re.sub('%7B%22categoryId%22', '%7B%22node%22', line)
             line = re.sub('%22ancestors%22', '%22path%22', line)
