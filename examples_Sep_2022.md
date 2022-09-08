@@ -1,4 +1,4 @@
-# TogoDX/Human
+# TogoDX/Human 検索事例集
 
 ## Gene
 ### Gene biotype
