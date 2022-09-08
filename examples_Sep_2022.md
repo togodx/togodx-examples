@@ -1,4 +1,4 @@
-# TogoDX/Human 検索事例集
+# TogoDX/Human 検索事例集(2022年9月)
 
 ## Gene
 ### Gene biotype
