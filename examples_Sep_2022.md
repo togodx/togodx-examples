@@ -17,8 +17,8 @@
 - [Y染色体の遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
     - 1件ヒット: SRY遺伝子 (sex determining region Y)
 - [神経系疾患に関連する遺伝子が、どの染色体にあるか](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009422%22%7D%5D%7D%5D)
-- [MTゲノムにコードされているタンパク質は、構造が決まっているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22protein_coding%22%7D%5D%7D%5D) (Ensembl gene 13件)
-    - 構造が決まっているものが比較的多い (11件). 決まっていないものが2つあるが (MT-ATP6, MT-ATP8) , この2つも重要なものらしい. ([link](http://grj.umin.jp/grj/mt-overview.htm)).
+- [MTゲノムにコードされているタンパク質は、構造が決まっているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22protein_coding%22%7D%5D%7D%5D) 
+    - 構造が決まっているものが比較的多い. 決まっていないものが2つあるが (MT-ATP6, MT-ATP8) , この2つも重要なものらしい. ([link](http://grj.umin.jp/grj/mt-overview.htm)).
 
 
 ### # of paralogs
