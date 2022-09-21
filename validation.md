@@ -60,7 +60,7 @@
 
 > Disease in MeSH にリンクのない物質、かと思いましたが、一番左のMeSHによってリストされている物質が異なっているようですし。
 >
-- [目的の反応にcomponentとして参加する化合物とタンパク質をリストし、そのタンパク質の構造が解析されているかどうかを調べる](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22interaction_proteins_in_pathway_reactome%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22R-HSA-2162123%22%2C%22path%22%3A%5B%22R-HSA-1430728%22%2C%22R-HSA-556833%22%2C%22R-HSA-8978868%22%2C%22R-HSA-2142753%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_compounds_in_pathway_reactome%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22R-HSA-2162123%22%2C%22path%22%3A%5B%22R-HSA-1430728%22%2C%22R-HSA-556833%22%2C%22R-HSA-8978868%22%2C%22R-HSA-2142753%22%5D%7D%5D%7D%5D)
+- [目的の反応にcomponentとして参加する化合物とタンパク質をリストし、そのタンパク質の構造が解析されているかどうかを調べる](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22interaction_proteins_in_pathway_reactome%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22R-HSA-2162123%22%2C%22ancestors%22%3A%5B%22R-HSA-1430728%22%2C%22R-HSA-556833%22%2C%22R-HSA-8978868%22%2C%22R-HSA-2142753%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_compounds_in_pathway_reactome%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22R-HSA-2162123%22%2C%22ancestors%22%3A%5B%22R-HSA-1430728%22%2C%22R-HSA-556833%22%2C%22R-HSA-8978868%22%2C%22R-HSA-2142753%22%5D%7D%5D%7D%5D)
     - target:
         - chebi_compound
     - filter1
@@ -102,7 +102,7 @@
     - comment
 - biomarkerとして働く化合物をリストし、どの疾患と関係しているかみたい（←できない）
     - targetを下記にした場合のリンク
-        - [chebi](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2259163%22%2C%22path%22%3A%5B%2247867%22%5D%7D%5D%7D%5D) (56件)
+        - [chebi](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D) (56件)
     - filter1
         - application type > indicator > biomarker
     - map
