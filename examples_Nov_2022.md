@@ -26,6 +26,7 @@
 - [singletonをターゲットとしてmetabolic diseasesに効く薬](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_number_of_paralogs_homologene%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22paralog_count_01%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D008659%22%2C%22ancestors%22%3A%5B%22D009750%22%5D%7D%5D%7D%5D)
 
 ### Ortholog existence
+- [小脳特異的に発現している遺伝子のオーソログはどのような生物で見つかるか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_ortholog_existence_homologene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22v02_40%22%7D%5D%7D%5D)
 
 ### Evolutionary divergence
 
