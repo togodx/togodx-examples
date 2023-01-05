@@ -102,7 +102,7 @@
 
 ### Disease-related proteins
 
-- [Y染色体にある遺伝子は、どのような病気に関連しているか](https://togodx-attribute-g3.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_disease_related_proteins_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2224%22%7D%5D%7D%5D)
+- [Y染色体にある遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_disease_related_proteins_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
 
 ### Tissues w/expression reported
 
