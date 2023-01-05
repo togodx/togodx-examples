@@ -1,4 +1,4 @@
-# TogoDX/Human 検索事例集(2022年9月)
+# TogoDX/Human 検索事例集(togodx-server-pg-dev)
 
 ## Gene
 ### Gene biotype
