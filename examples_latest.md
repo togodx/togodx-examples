@@ -3,7 +3,7 @@
 ## Gene
 ### Gene biotype
 
-- [miRNAに原因のある遺伝性疾患](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%7D%5D%7D%5D) 
+- [miRNAに原因のある遺伝性疾患](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%2C%22ancestors%22%3A%5B%220700096%22%5D%7D%5D%7D%5D)
     - MIR96, MIR140, MIR204 (難聴, 脊椎骨端異形成症, 網膜ジストロフィー)
         - MIR96 ENSG00000199158 Autosomal dominant non-syndromic sensorineural deafness type DFNA
         - MIR140 ENSG00000208017 Spondyloepiphyseal dysplasia, Nishimura type
@@ -269,7 +269,7 @@
 
 ### Diseases in Mondo
 
-- [miRNA遺伝子に関連する病気](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%7D%5D%7D%5D)
+- [miRNA遺伝子に関連する病気](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%2C%22ancestors%22%3A%5B%220700096%22%5D%7D%5D%7D%5D)
 
     - [Diseases in Mondo に Map attribute した場合](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)
 
