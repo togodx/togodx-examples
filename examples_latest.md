@@ -36,8 +36,10 @@
 - [miRNAが関わるBiological process](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_biological_process_ncbigene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)
 
 ### Cellular component
+- [ミトコンドリアゲノムにコードされたタンパク質の細胞内局在](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_cellular_component_ncbigene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
 
 ### Molecular function
+- [ミトコンドリアゲノムにコードされた遺伝子のMolecular function](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_molecular_function_ncbigene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
 
 ### Tissue-specific high expression (RefEx GeneChip)
 
