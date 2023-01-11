@@ -211,9 +211,7 @@
 ## Disease
 
 ### Diseases in Mondo
-
 - [miRNA遺伝子に関連する病気](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mondo%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%220003847%22%2C%22ancestors%22%3A%5B%220700096%22%5D%7D%5D%7D%5D)
-    - [Diseases in Mondo に Map attribute した場合](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22miRNA%22%7D%5D%7D%5D)
 
 ### Diseases in MeSH
 - [疾患に関与する環境汚染物質](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_chemical_role_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2278298%22%7D%5D%7D%5D)
