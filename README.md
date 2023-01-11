@@ -15,4 +15,4 @@
 * Modify miscellaneous comments
 * Add new attributes
 
-[examples_latest.md](https://github.com/togodx/togodx-examples/blob/main/examples_latest.md)
+[examples.md](https://github.com/togodx/togodx-examples/blob/main/examples.md)
