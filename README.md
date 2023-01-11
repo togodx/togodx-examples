@@ -3,7 +3,7 @@
 ### Conversion of obsolete links
 
 ```
-./bin/convert.py examples_original.md > examples.md
+./bin/convert.py _obsolete/examples_original.md > examples.md
 ```
 
 ## June 2022
