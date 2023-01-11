@@ -1,4 +1,4 @@
-# TogoDX/Human 検索事例集(2022年9月)
+# TogoDX/Human 検索事例集
 
 ## Gene
 ### Gene biotype
@@ -25,9 +25,18 @@
 
 - [singletonをターゲットとしてmetabolic diseasesに効く薬](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_number_of_paralogs_homologene%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22paralog_count_01%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D008659%22%2C%22ancestors%22%3A%5B%22D009750%22%5D%7D%5D%7D%5D)
 
+### Ortholog existence
+- [小脳特異的に発現している遺伝子のオーソログはどのような生物で見つかるか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_ortholog_existence_homologene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22v02_40%22%7D%5D%7D%5D)
+
 ### Evolutionary divergence
 
 - [zinc-fingerドメイン持ち、そのオルソログがマウスやラットにあるタンパク質をターゲットとする薬](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_evolutionary_conservation_homologene%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22branch_04%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22863%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%5D)
+
+### Biological process
+
+### Cellular component
+
+### Molecular function
 
 ### Tissue-specific high expression (RefEx GeneChip)
 
@@ -53,7 +62,13 @@
 
 - [Y染色体の遺伝子の発現特異性](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_specific_expression_in_cells_hpa%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
 
+### Transcript biotype
+
+### Transcript length
+
 ## Protein
+
+### UniProtKB sections
 
 ### Protein domains
 
@@ -71,10 +86,11 @@
 
 - [ミトコンドリアゲノムにコードされた遺伝子のGO(Molecular function)](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
 
+### Isoform specific GO existence
+
 ### Ligands
 
 - [DNA結合型転写因子として組織特異的に高発現し、Zincと結合･反応して機能するタンパク質の一覧](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0003700%22%2C%22ancestors%22%3A%5B%22GO_0140110%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_ligands_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22862%22%7D%5D%7D%5D)　
-
 
 ### Molecular mass
 
@@ -85,11 +101,11 @@
 
 - [Viral processに関わり、Glycoprotein(糖タンパク質)の翻訳後修飾を受けるタンパク質のうち、組織別に結合する糖鎖の種類が明らかになっているかを調べる(かつ、それらの遺伝子の組織における発現状況を調べる)。](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22glycan_tissue_glycosmos%22%7D%2C%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_ptms_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22325%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0016032%22%7D%5D%7D%5D)　
 
+### Catalytic activity
 
 ### # of transmembrane domains
 
 - [Gタンパク質共役型ペプチドレセプタータンパク質の膜貫通型ドメインの数とそれらの立体構造データの有無](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0008528%22%2C%22ancestors%22%3A%5B%22GO_0060089%22%2C%22GO_0038023%22%2C%22GO_0004888%22%2C%22GO_0004930%22%5D%7D%5D%7D%5D)　
-
 
 ### # of phosphorylation sites
 
@@ -113,6 +129,10 @@
 - [ホモロジーから存在が推測されるタンパク質は、どの染色体にコードされていて、どんなドメインを持っているか](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%2C%7B%22attributeId%22%3A%22protein_domains_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_evidence_of_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%223%22%7D%5D%7D%5D) (UniProt 147件)
     - 11番染色体に多く、膜貫通型ドメインが多い
 
+### Isoform specific interaction existence
+
+### Pathway annotation
+
 ## Structure
 
 ### Structure data existence
@@ -126,14 +146,17 @@
 - [Synaptic membrane に関わるタンパク質(UniProt)におけるHelical regionの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
     - Synaptic membraneと比べると、Cell projection membrane ではHelical regionの割合が高い(50%以上)タンパク質が、多く含まれていることがわかる。
 
-
 ### Rate of beta strand
 - [Cell projection membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_beta_strand_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0031253%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
 
 - [Synaptic membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
     - Beta strand では、Synaptic membraneとCell projection membrane を比べて大きな差はないことがわかる。
 
+### # of turn structures
 
+### # of disulfide bonds
+
+### Rate of disorder regions
 
 ### # of peptides in a PDB entry
 

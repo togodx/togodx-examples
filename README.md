@@ -13,7 +13,8 @@
 
 https://github.com/togodx/togodx-examples/blob/main/examples_June_2022.md
 
-## latest
-* Remove and modify comments
+## Latest
+* Modify comments
+* Add new attributes
 
 https://github.com/togodx/togodx-examples/blob/main/examples_latest.md
