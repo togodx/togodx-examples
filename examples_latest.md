@@ -56,9 +56,10 @@
 - [Y染色体の遺伝子の発現特異性](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_specific_expression_in_cells_hpa%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
 
 ### Transcript biotype
+- [Y染色体から転写されるlncRNAの長さ](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22transcript_length_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22transcript_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22lncRNA%22%7D%5D%7D%5D)
 
 ### Transcript length
-
+- [ミトコンドリアゲノムから転写されるtranscriptの長さ](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22transcript_biotype_ensembl%22%7D%2C%7B%22attributeId%22%3A%22transcript_length_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
 
 ## Protein
 
