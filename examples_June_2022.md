@@ -109,7 +109,7 @@
 
 ### Disease-related proteins
 
-- [Y染色体にある遺伝子は、どのような病気に関連しているか](https://togodx-attribute-g3.dbcls.jp/human/?togoKey=uniprot&keys=%5B%7B%22attributeId%22%3A%22protein_disease_related_proteins_uniprot%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2224%22%7D%5D%7D%5D) (UniProt 92件)
+- [Y染色体にある遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_disease_related_proteins_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D) (UniProt 92件)
     - Unclassified 82, Deafness 1, Disease variant 1
 
 ### Tissues w/expression reported
@@ -218,7 +218,7 @@
         - assayがない= 働きがわかっていない としてしまっていいか
         - ChEMBL assay が存在する、ということは｢薬効に根拠がある?｣
     - [General Questions - ChEMBL Interface Documentation](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions)
-- [biomarkerとしてアノテーションされている化合物が何の疾患に関係しているか](https://togodx-attribute-g3.dbcls.jp/human?togoKey=chebi&keys=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D)
+- [biomarkerとしてアノテーションされている化合物が何の疾患に関係しているか](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D)
     - chebiのbiomarker 56件に対して、4つの化合物しか疾患と紐づかない
     - ▲とした懸念点(建石)
         - 結果が少ないのに例としていいのか
