@@ -17,6 +17,3 @@ https://github.com/togodx/togodx-examples/blob/main/examples_June_2022.md
 * Remove and modify comments
 
 https://github.com/togodx/togodx-examples/blob/main/examples_Sep_2022.md
-
-## dev
-https://github.com/togodx/togodx-examples/blob/main/examples_dev.md
