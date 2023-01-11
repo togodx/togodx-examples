@@ -1,7 +1,7 @@
 # TogoDX examples
 
-### Conversion of obsolete links
-
+## March 2022
+* Convert obsolete links
 ```
 ./bin/convert.py _obsolete/examples_original.md > examples.md
 ```
@@ -10,8 +10,6 @@
 * Use "Rate of helical regions"
 * Use "Rate of beta strand"
 * Removed old comments
-
-https://github.com/togodx/togodx-examples/blob/main/examples_June_2022.md
 
 ## Latest
 * Modify comments
