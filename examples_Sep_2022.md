@@ -184,7 +184,7 @@
     - assayがない ≒ 働きがわかっていない
     - ChEMBL assay が存在する ≒ 薬効に根拠がある
 
-- [biomarkerとしてアノテーションされている化合物が何の疾患に関係しているか](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&values=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22ids%22%3A%5B%7B%22categoryId%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D)
+- [biomarkerとしてアノテーションされている化合物が何の疾患に関係しているか](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D)
 
 
 ### Action type
