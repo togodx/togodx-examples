@@ -9,10 +9,10 @@
 ## June 2022
 * Use "Rate of helical regions"
 * Use "Rate of beta strand"
-* Removed old comments
+* Remove old comments
 
 ## Latest
-* Modify comments
+* Modify miscellaneous comments
 * Add new attributes
 
-https://github.com/togodx/togodx-examples/blob/main/examples_latest.md
+[examples_latest.md](https://github.com/togodx/togodx-examples/blob/main/examples_latest.md)
