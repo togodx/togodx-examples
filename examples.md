@@ -75,7 +75,7 @@
 - [ミトコンドリアゲノムにコードされた遺伝子のGO(Molecular function)](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
 
 ### Isoform specific GO existence
-- [Y染色体にコードされている遺伝子のうち、アイソフォーム特異的な機能(Molecular function)があるもの](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_isoform_specific_go_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GoMolecularFunction%22%7D%5D%7D%5D)
+- [Y染色体上にあり、アイソフォーム特異的なGO(Molecular function)がある遺伝子](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_isoform_specific_interaction_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22hasSpecific%22%7D%5D%7D%5D)
 
 ### Ligands
 - [DNA結合型転写因子として組織特異的に高発現し、Zincと結合･反応して機能するタンパク質の一覧](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0003700%22%2C%22ancestors%22%3A%5B%22GO_0140110%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_ligands_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22862%22%7D%5D%7D%5D)　
