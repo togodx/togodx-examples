@@ -80,6 +80,7 @@
 - [ミトコンドリアゲノムにコードされた遺伝子のGO(Molecular function)](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
 
 ### Isoform specific GO existence
+- [Y染色体にコードされている遺伝子のうち、アイソフォーム特異的な機能(Molecular function)があるもの](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_isoform_specific_go_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GoMolecularFunction%22%7D%5D%7D%5D)
 
 ### Ligands
 - [DNA結合型転写因子として組織特異的に高発現し、Zincと結合･反応して機能するタンパク質の一覧](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0003700%22%2C%22ancestors%22%3A%5B%22GO_0140110%22%5D%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_ligands_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22862%22%7D%5D%7D%5D)　
@@ -91,6 +92,7 @@
 - [Viral processに関わり、Glycoprotein(糖タンパク質)の翻訳後修飾を受けるタンパク質のうち、組織別に結合する糖鎖の種類が明らかになっているかを調べる(かつ、それらの遺伝子の組織における発現状況を調べる)。](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22glycan_tissue_glycosmos%22%7D%2C%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_ptms_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22325%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0016032%22%7D%5D%7D%5D)　
 
 ### Catalytic activity
+- [酸化還元酵素活性を持つタンパク質は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_catalytic_activity_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2210000000%22%7D%5D%7D%5D)
 
 ### # of transmembrane domains
 - [Gタンパク質共役型ペプチドレセプタータンパク質の膜貫通型ドメインの数とそれらの立体構造データの有無](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_molecular_function_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0008528%22%2C%22ancestors%22%3A%5B%22GO_0060089%22%2C%22GO_0038023%22%2C%22GO_0004888%22%2C%22GO_0004930%22%5D%7D%5D%7D%5D)　
@@ -100,7 +102,6 @@
 
 ### # of glycosylation sites
 - [免疫グロブリンドメインを持つタンパク質について、糖鎖修飾部位の数、リン酸化部位の数、膜貫通型ドメインの数を見る](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_number_of_glycosylation_sites_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_number_of_phosphorylation_sites_uniprot%22%7D%2C%7B%22attributeId%22%3A%22protein_number_of_transmembrane_domains_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22393%22%7D%5D%7D%5D) 
-
 
 ### Disease-related proteins
 - [Y染色体にある遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_disease_related_proteins_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
@@ -113,8 +114,11 @@
     - 11番染色体に多く、膜貫通型ドメインが多い
 
 ### Isoform specific interaction existence
+- [Y染色体にコードされている遺伝子のうち、アイソフォーム特異的なタンパク質相互作用があるもの](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_isoform_specific_interaction_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22hasSpecific%22%7D%5D%7D%5D)
 
 ### Pathway annotation
+- [脂質代謝を担う遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_pathway_annotation_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22436%22%7D%5D%7D%5D)
+
 
 ## Structure
 
@@ -133,10 +137,13 @@
     - Beta strand では、Synaptic membraneとCell projection membrane を比べて大きな差はないことがわかる。
 
 ### # of turn structures
+- [Y染色体上にコードされているタンパク質の構造的特徴](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_turns_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_number_of_disulfide_bonds_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_disorder_annotation_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
 
 ### # of disulfide bonds
+- [Y染色体上にコードされているタンパク質の構造的特徴](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_turns_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_number_of_disulfide_bonds_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_disorder_annotation_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
 
 ### Rate of disorder regions
+- [Y染色体上にコードされているタンパク質の構造的特徴](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_turns_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_number_of_disulfide_bonds_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_disorder_annotation_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
 
 ### # of peptides in a PDB entry
 - [Y染色体上の遺伝子がコードするタンパク質が持つペプチドの数](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_peptides_pdb%22%7D%2C%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
@@ -144,6 +151,7 @@
 
 ### Analysis methods
 - [Neutron diffraction(中性子回折法)を使って同定したPDBエントリに関連する疾患と遺伝子の染色体ごとの分布](https://togodx.dbcls.jp/human/?dataset=nando&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22structure_analysis_methods_pdb%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2204%22%7D%5D%7D%5D)
+
 
 ## Interaction
 
