@@ -11,8 +11,10 @@
 * Use "Rate of beta strand"
 * Remove old comments
 
-## Latest
-* Modify miscellaneous comments
+## Sept. 2022
+* Remove miscellaneous comments
+
+## Jan. 2023
 * Add new attributes
 
 [examples.md](https://github.com/togodx/togodx-examples/blob/main/examples.md)
