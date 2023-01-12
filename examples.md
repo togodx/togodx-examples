@@ -55,10 +55,11 @@
 ### Transcript length
 - [ミトコンドリアゲノムから転写されるtranscriptの長さ](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22transcript_biotype_ensembl%22%7D%2C%7B%22attributeId%22%3A%22transcript_length_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%5D)
 
+
 ## Protein
 
 ### UniProtKB sections
-- [ミトコンドリアゲノムにコードされたタンパク質の細胞内局在](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_cellular_component_ncbigene%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
+- [ミトコンドリアゲノムにコードされたタンパク質の細胞内局在](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
     - Swiss-Protにエントリーがあるもののみに限定
 
 ### Protein domains
