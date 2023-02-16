@@ -6,12 +6,9 @@
 
 ### Chromosome
 - [Y染色体の遺伝子が特異的に発現している組織を見る](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D) 
-    - Testis特異的発現が多い
 - [Y染色体の遺伝子は、どのような病気に関連しているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
-    - 1件ヒット: SRY遺伝子 (sex determining region Y)
 - [神経系疾患に関連する遺伝子が、どの染色体にあるか](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009422%22%7D%5D%7D%5D)
 - [MTゲノムにコードされているタンパク質は、構造が決まっているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22gene_biotype_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22protein_coding%22%7D%5D%7D%5D) 
-    - 構造が決まっているものが比較的多い. 決まっていないものが2つあるが (MT-ATP6, MT-ATP8) , この2つも重要なものらしい. ([link](http://grj.umin.jp/grj/mt-overview.htm)).
 
 ### # of paralogs
 - [singletonをターゲットとしてmetabolic diseasesに効く薬](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_number_of_paralogs_homologene%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22paralog_count_01%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%221%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22disease_diseases_mesh%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D008659%22%2C%22ancestors%22%3A%5B%22D009750%22%5D%7D%5D%7D%5D)
@@ -60,7 +57,6 @@
 
 ### UniProtKB sections
 - [ミトコンドリアゲノムにコードされたタンパク質の細胞内局在](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2225%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
-    - Swiss-Protにエントリーがあるもののみに限定
 
 ### Protein domains
 - [免疫グロブリンドメインを持つタンパク質をコードする遺伝子のGO(Biological process)一覧](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22protein_biological_process_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_domains_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22393%22%7D%5D%7D%5D)
@@ -106,7 +102,6 @@
 
 ### Evidence of existence
 - [ホモロジーから存在が推測されるタンパク質は、どの染色体にコードされていて、どんなドメインを持っているか](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%2C%7B%22attributeId%22%3A%22protein_domains_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_evidence_of_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%223%22%7D%5D%7D%5D) (UniProt 147件)
-    - 11番染色体に多く、膜貫通型ドメインが多い
 
 ### Isoform specific interaction existence
 - [Y染色体にコードされている遺伝子のうち、アイソフォーム特異的なタンパク質相互作用があるもの](https://togodx.dbcls.jp/human/?dataset=ncbigene&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_isoform_specific_interaction_existence_nextprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22hasSpecific%22%7D%5D%7D%5D)
@@ -124,12 +119,10 @@
 ### Rate of helical regions
 - [Cell projection membrane に関わるタンパク質(UniProt)におけるHelical regionの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
 - [Synaptic membrane に関わるタンパク質(UniProt)におけるHelical regionの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
-    - Synaptic membraneと比べると、Cell projection membrane ではHelical regionの割合が高い(50%以上)タンパク質が、多く含まれていることがわかる。
 
 ### Rate of beta strand
 - [Cell projection membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_beta_strand_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0031253%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
 - [Synaptic membrane に関わるタンパク質(UniProt)におけるBeta strandの割合の分布](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_helical_regions_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22protein_cellular_component_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22GO_0097060%22%2C%22ancestors%22%3A%5B%22GO_0110165%22%2C%22GO_0016020%22%2C%22GO_0098590%22%5D%7D%5D%7D%5D)
-    - Beta strand では、Synaptic membraneとCell projection membrane を比べて大きな差はないことがわかる。
 
 ### # of turn structures
 - [Y染色体上にコードされているタンパク質の構造的特徴](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_turns_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_number_of_disulfide_bonds_uniprot%22%7D%2C%7B%22attributeId%22%3A%22structure_disorder_annotation_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22protein_uniprotkb_section_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22reviewed%22%7D%5D%7D%5D)
@@ -142,7 +135,6 @@
 
 ### # of peptides in a PDB entry
 - [Y染色体上の遺伝子がコードするタンパク質が持つペプチドの数](https://togodx.dbcls.jp/human/?dataset=uniprot&annotations=%5B%7B%22attributeId%22%3A%22structure_number_of_peptides_pdb%22%7D%2C%7B%22attributeId%22%3A%22structure_data_existence_uniprot%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2224%22%7D%5D%7D%5D)
-    - ペプチドの数は、実験手法的に前例のあるダイマーや複合体などを形成していそうだということがわかる
 
 ### Analysis methods
 - [Neutron diffraction(中性子回折法)を使って同定したPDBエントリに関連する疾患と遺伝子の染色体ごとの分布](https://togodx.dbcls.jp/human/?dataset=nando&annotations=%5B%7B%22attributeId%22%3A%22gene_chromosome_ensembl%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22structure_analysis_methods_pdb%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2204%22%7D%5D%7D%5D)
@@ -169,13 +161,10 @@
 ### Chemical role
 - [環境汚染物質がターゲットとする遺伝子がどこで高発現しているか](https://togodx.dbcls.jp/human/?dataset=ensembl_gene&annotations=%5B%7B%22attributeId%22%3A%22gene_high_level_expression_refex%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_chemical_role_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2278298%22%7D%5D%7D%5D)
 - [疾患に関与する環境汚染物質](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mesh%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_chemical_role_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2278298%22%7D%5D%7D%5D)
-    - Chemical CompoundとDiseases in MeSHはChEMBL Drug Indicationを通してつながっているはずなので、疾患に薬効を持つ環境汚染物質という意味になると思われるが、それがわかりにくい
 
 ### Application type
 - [薬効のある化粧品（香料含む）](https://togodx.dbcls.jp/human/?dataset=pubchem_compound&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2248318%22%7D%2C%7B%22node%22%3A%2264857%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22compound_drug_indication_mesh_chembl%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22D009369%22%7D%2C%7B%22node%22%3A%22D005261%22%7D%2C%7B%22node%22%3A%22D002318%22%7D%2C%7B%22node%22%3A%22D017437%22%7D%2C%7B%22node%22%3A%22D013568%22%7D%2C%7B%22node%22%3A%22D007239%22%7D%2C%7B%22node%22%3A%22D006425%22%7D%2C%7B%22node%22%3A%22D007154%22%7D%2C%7B%22node%22%3A%22D009750%22%7D%2C%7B%22node%22%3A%22D009358%22%7D%2C%7B%22node%22%3A%22D009422%22%7D%2C%7B%22node%22%3A%22D004066%22%7D%2C%7B%22node%22%3A%22D004700%22%7D%2C%7B%22node%22%3A%22D012140%22%7D%2C%7B%22node%22%3A%22D064419%22%7D%2C%7B%22node%22%3A%22D005128%22%7D%2C%7B%22node%22%3A%22D014947%22%7D%2C%7B%22node%22%3A%22D009140%22%7D%2C%7B%22node%22%3A%22D009057%22%7D%2C%7B%22node%22%3A%22D010038%22%7D%2C%7B%22node%22%3A%22D052801%22%7D%2C%7B%22node%22%3A%22D009784%22%7D%2C%7B%22node%22%3A%22D000820%22%7D%5D%7D%5D)
 - [どう働くかよくわかっていないけれど薬効が認められている物質](https://togodx.dbcls.jp/human/?dataset=mesh&annotations=%5B%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2252217%22%7D%5D%7D%2C%7B%22attributeId%22%3A%22interaction_chembl_assay_existence_uniprot%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%22unclassified%22%7D%5D%7D%5D)
-    - assayがない ≒ 働きがわかっていない
-    - ChEMBL assay が存在する ≒ 薬効に根拠がある
 - [biomarkerとしてアノテーションされている化合物が何の疾患に関係しているか](https://togodx.dbcls.jp/human/?dataset=chebi&annotations=%5B%7B%22attributeId%22%3A%22disease_diseases_mondo%22%7D%5D&filters=%5B%7B%22attributeId%22%3A%22compound_application_type_chebi%22%2C%22nodes%22%3A%5B%7B%22node%22%3A%2259163%22%2C%22ancestors%22%3A%5B%2247867%22%5D%7D%5D%7D%5D)
 
 ### Action type
